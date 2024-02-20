@@ -1,0 +1,12 @@
+imitator:
+  n_params: 521
+  lr: 0.0001
+  checkpoint_dir: "result"
+
+trainer:
+  stage: "train"
+  n_epochs: 100
+  batch_size: 32
+  num_workers: 2
+  path: "~/content/projects/parametric-face-image-generator/data/output"
+  transform: true
